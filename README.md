@@ -50,6 +50,8 @@ The bracket expressions are what we will find inbetween the `[]`. Just like the 
 
 ### The OR Operator
 
+`|` Although it is not used in this regex, it is used to match either expression on the left or the right of the operator.
+
 ### Flags
 
 ### Character Escapes
