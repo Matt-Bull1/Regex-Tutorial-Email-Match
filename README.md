@@ -26,6 +26,10 @@ That anchors that are being used in the Regex expression are `^` which is used t
 
 ### Quantifiers
 
+The first quantifier in this regex is the `+` operator. What this does it match the preceding items 1 or more times. So in the case `^([a-z0-9_\.-]+)@` the `+` will match the information before the @ sign of the email given.
+
+The second quantifier is `{2,6}`, which will allow a match range of 2-6 characters.
+
 ### Grouping Constructs
 
 ### Bracket Expressions
