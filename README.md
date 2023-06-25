@@ -32,6 +32,11 @@ The second quantifier is `{2,6}`, which will allow a match range of 2-6 characte
 
 ### Grouping Constructs
 
+In this regex there are 3 sets of grouping constructs, this are identified by using `()`.
+First is `([a-z0-9_\.-]+)`, this will match the users email name before the @ in the email.
+Second is `([\da-z\.-]+)`, this will match the service that hosts the email for example gmail or yahoo.
+Last is `([a-z\.]{2,6})`, this will match the top level domain for example ".com" or ".org".
+
 ### Bracket Expressions
 
 ### Character Classes
