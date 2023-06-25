@@ -39,7 +39,14 @@ Last is `([a-z\.]{2,6})`, this will match the top level domain for example ".com
 
 ### Bracket Expressions
 
+The bracket expressions are what we will find inbetween the `[]`. Just like the goupings we have 3 sets of bracket expressions. 
+`[a-z0-9_\.-]` This is used to match any letter a-z (case sensitive), any number 0-9, `.`, `-`, `_`.
+`[\da-z\.-]` This is used to match any letter a-z (case sensitive), any number 0-9, `.`, `-`.
+`[a-z\.]` This is used to match any letter a-z (case sensitive).
+
 ### Character Classes
+`\d` Matches a single character thats digit is from 0-9, only works on single digit numbers.
+`\.` Matches a period. Used to match the dot in the domain primarily.
 
 ### The OR Operator
 
