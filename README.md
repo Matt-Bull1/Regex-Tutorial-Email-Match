@@ -1,10 +1,11 @@
 # Regex-Tutorial-Email-Match
 
-Introductory paragraph (replace this with your text)
+A Stater example to explain Regex
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial will explain to the reader how to match emails using the regex expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. 
+For example this can be used when a user is logging into their account. The expression can be used to check if the user given email matches one in the database.
 
 ## Table of Contents
 
@@ -18,6 +19,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+
 
 ### Anchors
 
@@ -37,4 +39,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Created by Matthew Bull
+
+https://github.com/Matt-Bull1/
