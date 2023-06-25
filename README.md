@@ -48,14 +48,6 @@ The bracket expressions are what we will find inbetween the `[]`. Just like the 
 `\d` Matches a single character thats digit is from 0-9, only works on single digit numbers.
 `\.` Matches a period. Used to match the dot in the domain primarily.
 
-### The OR Operator
-
-`|` Although it is not used in this regex, it is used to match either expression on the left or the right of the operator.
-
-### Flags
-
-### Character Escapes
-
 ## Author
 
 Created by Matthew Bull
