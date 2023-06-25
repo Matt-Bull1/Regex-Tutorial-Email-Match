@@ -1,6 +1,6 @@
 # Regex-Tutorial-Email-Match
 
-A Stater example to explain Regex
+A starter tutorial to explain the regex expression used to match emails
 
 ## Summary
 
