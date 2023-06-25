@@ -20,8 +20,9 @@ For example this can be used when a user is logging into their account. The expr
 
 ## Regex Components
 
-
 ### Anchors
+
+That anchors that are being used in the Regex expression are `^` which is used to indicate the start of a string, and `$` to indicate the end of the string.
 
 ### Quantifiers
 
